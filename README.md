@@ -1,5 +1,8 @@
-# Reconcile Notes from Nature Transcripts
+# Reconcile Reading Natures Library Transcripts
 
+Forked from Notes from Nature @ https://github.com/juliema/label_reconciliations
+
+We recommend using rnl_transcription.py to view and prepare the data before carrying out the reconciliation
 ## Installation
 
 - We require python 3.5 or later

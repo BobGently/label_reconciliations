@@ -22,7 +22,7 @@ python reconcile.py -h
 
 A typical run will look like:
 ```
-python reconcile.py -r data/reconciled.csv -s data/summary.html data/classifications-from-nfn.csv
+python reconcile.py -r data/reconciled.csv -s data/summary.html -u data/unreconciled.csv data/reading-natures-library-classifications.csv
 ```
 
 ## Description

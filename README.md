@@ -25,6 +25,10 @@ A typical run will look like:
 python reconcile.py -r data/reconciled.csv -s data/summary.html -u data/unreconciled.csv data/reading-natures-library-classifications.csv
 ```
 
+Unless you have used rnl_transcription.py, in which case run:
+```
+python reconcile.py -fcsv -c Species:text,Country:select,Location:text,Collector:text,Era:select,Age:select,image:select -r data/reconciled.csv -s data/summary.html --user-column user_name data/flatten_class_rnl_sorted.csv
+```
 ## Description
 
 reconcile.py takes a group of raw Reading Nature's Library transcripts for each subject and reconciles them into the "best" values. The strategy and specific rules for doing this are described in [this document](https://docs.google.com/document/d/1DqhWNsy9UAEgkRnIU7VHrdQL4oQzIm2pjrPULGKK21M/edit#heading=h.967a32z3bwbb).
